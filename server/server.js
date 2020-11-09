@@ -31,6 +31,6 @@ mongoose.connect(process.eventNames.URLDB, {
 
 // process.env.PORT variable global
 app.listen(process.env.PORT, () => {
-    console.log("Escuchando puerto 3000");
+    console.log(`Escuchando el puerto : ${process.env.PORT}`);
 })
 
